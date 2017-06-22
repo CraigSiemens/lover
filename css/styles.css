@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: -apple-system, sans-serif;
+	max-width: 320px;
+	margin: 0 auto;
+	line-height: 1.2;
+	color: #FFFFFF;
+	background-color: #0F0F0F;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.container {
+	margin: 32px 16px;
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 1.5em;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 30px;
+}
+
+h2 {
+	font-size: 0.875em;
+	color: #FFFFFF;
+	font-weight: 500;
+}
+
+a {
+	color: #FF6196;
+	text-decoration: none;
+}
+
+p {
+	color: #BFBFBF;
+	margin-bottom: 16px;
+	font-size: 0.875em;
+	line-height: 17px;
+}
+
+.small {
+	font-size: 0.75em;
+	color: #7F7F7F;
+	font-weight: 400;
+}
+
+img {
+	margin-bottom: 32px;
+}
