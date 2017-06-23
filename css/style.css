@@ -18,6 +18,10 @@ body {
 	margin: 32px 16px;
 }
 
+.description {
+	max-width: 288px;
+}
+
 h1 {
 	font-weight: 600;
 	font-size: 1.5em;
@@ -52,4 +56,45 @@ p {
 
 img {
 	margin-bottom: 32px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) {
+	
+	body {
+		padding: 32px;
+		max-width: 620px;
+	}
+	
+	.container {
+		margin: 32px 0;
+	}
+	
+	h1 {
+		margin-top: 31px;
+		margin-bottom: 32px;
+	}
+	
+	.content {
+		max-width: 384px;
+		float: left;
+	}
+	
+	.left {
+		float: left;
+	}
+	
+	.right {
+		float: right;
+	}
+	
+	.clear {
+		clear: left;
+	}
+	
+	footer {
+		clear: both;
+	}
+
 }
